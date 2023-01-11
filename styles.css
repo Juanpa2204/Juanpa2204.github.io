@@ -1,0 +1,123 @@
+body{
+    display: block;
+    margin: 8px;
+    background: #F3F5FC;}
+
+#encriptador{
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 0;
+gap: 24px;
+}
+.input{
+    position: absolute;
+    top: 160px;
+    left: 240px;
+}
+#input-encriptador{
+    position: absolute;
+        width: 577px;
+        height: 350px;    
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+        color: #0A3871;
+        border: none;
+        background: #F3F5FC;
+    }
+#rectangulo{
+position: absolute;
+width: 400px;
+height: 750px;
+top: 35px;
+left: 1000px;
+background: #FFFFFF;
+box-shadow: 0px 24px 32px -8px #00000014;
+border-radius: 32px;
+}
+#imagen-muneco{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    margin: 0 30px;
+    top: 100px;
+}
+#avisos{
+    position: absolute;
+    width: 336px;
+    margin: 0 30px;
+    top: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#boton-copiar{
+    color: white;
+    border-radius: 30px;
+    font-size: 15px;
+    border-color: #080708;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: color 150ms ease-in-out;
+    font-weight: bold;
+
+
+}
+#aviso1{
+    position: absolute;
+    top: 600px;
+    left: 240px;
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.botones{
+    position: absolute;
+    width: 680px;
+    height: 70px;
+    top: 650px;
+    left: 230px;
+}
+#boton1{
+    width: 300px;
+    height: 69px;
+    margin: 0 13px;
+    background: #0052d0;
+    color: white;
+    border-radius: 30px;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    font-weight: bold;
+
+}
+#boton2{
+    width: 300px;
+    height: 69px;
+    margin: 0 13px;
+    background: #dfdfdf;
+    color: blue;
+    font-size: 15px;
+    border-radius: 30px;
+    border: 1px solid #0052d0;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    font-weight: bold;
+}
+
+
+
