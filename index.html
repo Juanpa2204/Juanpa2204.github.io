@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="encriptador.js"> </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div id="encriptador">
-        <div class="input"> 
-            <textarea id="input-encriptador" placeholder="ingrese su texto aquí"></textarea>
-        </div>
-        <div id="rectangulo">
-            <img id-imagen-muneco src="img/muneco.png">
+    <header>
+        <img src="img/Vector.png" alt="logo" class="logo">
+    </header>
+    <main>
+        <section class="textarea1">
+            <textarea class="input-encriptador" placeholder="ingrese su texto aquí" cols="30" rows="10"></textarea>
+            <div class="aviso">
+                <img src="img/advertencia.png" alt="advertencia" class="advertencia">
+                <h6 class="aviso1">solo letras minusculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button type="button" class="boton1">Encriptar</button>
+                <button type="button" class="boton2">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="rectangulo">
             <textarea id="resultado" cols="30" rows="10" style="display: none;"></textarea>
-            <div id="avisos">
-                <h1 id="aviso2">ningún mensaje fue encontrado</h1>
-                <p id="aviso3">ingrese el texto que desee encriptar o desencriptar</p>
+
+            <div class="avisos">
+                <h1 class="aviso2">ningún mensaje fue encontrado</h1>
+                <p class="aviso3">ingrese el texto que desee encriptar o desencriptar</p>
             </div>
             <button id="boton-copiar" style="display: none;">copiar</button>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <span>© Juan Pablo Rojas</span>
+            <a href="https://github.com/Juanpa2204"><img class="img-enlace"   src="img/GitHub-Emblem.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/pablo-rojas-5234771a3/"><img class="img-enlace" src="/img/Linkedin-Logo.png" alt=""></a>
         </div>
-        <div id="aviso1">
-            <p>solo letras minusculas y sin acentos</p>
-        </div>
-        <div class="botones">
-            <button type="button" id="boton1">Encriptar</button>
-            <button type="button" id="boton2">Desencriptar</button>
-        </div> 
-    </div>
-    
+      
+    </footer>
 </body>
 </html>
