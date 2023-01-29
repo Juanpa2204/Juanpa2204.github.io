@@ -46,7 +46,7 @@ main {
     color: #0A3871;
 }
 
-.input-encriptador:focus {
+.input-encriptador, .resultado:focus {
     outline: none;
 }
 
@@ -135,12 +135,45 @@ main {
     background-color: #FFFFFF
 }
 
+.resultado {
+    position: absolute;
+    width: 336px;
+    height: 244px;
+    left: 1422px;
+    top: 72px;
+    margin: 52px 44px 0;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.boton-copiar {
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    margin: 68px 37px 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
 .avisos {
     width: 336px;
     height: 122px;
     background-color: #FFFFFF;
     margin: 650px 44px 0;
- 
+
 }
 
 .aviso2 {
@@ -169,20 +202,20 @@ main {
     flex-grow: 0;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 16px;
 }
 
-.info{
+.info {
     display: flex;
     align-items: baseline;
     font-size: 16px;
 }
 
-span{
+span {
     margin: 0;
     padding: 0;
     border: 0;
@@ -191,8 +224,8 @@ span{
     vertical-align: top;
 }
 
-.img-enlace{
-width: 100px;
-vertical-align: baseline;
-padding: 0 10px;
+.img-enlace {
+    width: 100px;
+    vertical-align: baseline;
+    padding: 0 10px;
 }
