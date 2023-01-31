@@ -107,6 +107,16 @@ main {
     line-height: 19px;
     text-align: center;
     color: #FFFFFF;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.4);
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.boton1:hover{
+    background-color: #f3f5fc;
+    border-color: #0A3871;
+    color: #0A3871;
+    transform: scale(1.1);
 }
 
 .boton2 {
@@ -120,7 +130,16 @@ main {
     line-height: 19px;
     text-align: center;
     color: #0A3871;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.4);
+    transition: 1s all;
+    cursor: pointer;
+}
 
+.boton2:hover{
+    background-color: #f3f5fc;
+    border-color: #0A3871;
+    color: #0A3871;
+    transform: scale(1.1);
 }
 
 .rectangulo {
@@ -136,23 +155,19 @@ main {
 }
 
 .resultado {
-    position: absolute;
     width: 336px;
-    height: 244px;
+    height: 700px;
     left: 1422px;
     top: 72px;
     margin: 52px 44px 0;
     background-color: #FFFFFF;
     border: none;
+    display: none;
 }
 
 .boton-copiar {
-    box-sizing: border-box;
-    flex-direction: row;
-    align-items: flex-start;
+   position: relative;
     padding: 24px;
-    gap: 8px;
-    position: absolute;
     width: 336px;
     height: 67px;
     border: 1px solid #0A3871;
@@ -163,9 +178,16 @@ main {
     line-height: 19px;
     text-align: center;
     color: #0A3871;
-    flex: none;
-    order: 0;
-    flex-grow: 1;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.4);
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.boton-copiar:hover{
+    background-color: #f3f5fc;
+    border-color: #0A3871;
+    color: #0A3871;
+    transform: scale(1.1);
 }
 
 .avisos {
@@ -173,7 +195,7 @@ main {
     height: 122px;
     background-color: #FFFFFF;
     margin: 650px 44px 0;
-
+    display: block;
 }
 
 .aviso2 {
