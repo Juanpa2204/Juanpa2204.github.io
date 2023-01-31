@@ -51,7 +51,7 @@ main {
 }
 
 .aviso {
-    position: fixed;
+    position: absolute;
     height: 18px;
     width: 235px;
     left: 240px;
