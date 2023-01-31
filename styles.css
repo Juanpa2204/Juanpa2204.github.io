@@ -52,11 +52,12 @@ main {
 }
 
 .aviso {
-    position: absolute;
+    position: static;
     height: 18px;
     width: 235px;
     left: 240px;
-    top: 851px;
+    padding-top: 600px;
+   
 }
 
 .advertencia {
@@ -167,7 +168,7 @@ main {
 }
 
 .boton-copiar {
-   position: relative;
+   position: static;
     padding: 24px;
     width: 336px;
     height: 67px;

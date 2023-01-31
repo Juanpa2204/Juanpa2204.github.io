@@ -28,6 +28,7 @@ function btnDesencriptar() {
     mensaje.value = textoEncriptado
     textArea.value = "";
     document.querySelector(".resultado").style.display='block';
+    document.querySelector(".avisos").style.display='none';
 
 }
 
